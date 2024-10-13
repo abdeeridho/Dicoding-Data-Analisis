@@ -13,7 +13,7 @@ def create_year_perform(df):
     return year_perform_df
 
 # Membaca data utama
-main_df = pd.read_csv("main_data.csv")
+main_df = pd.read_csv("dashboard/main_data.csv")
 
 # Mengurutkan dan mengatur format tanggal
 datetime_columns = ["dteday"]
